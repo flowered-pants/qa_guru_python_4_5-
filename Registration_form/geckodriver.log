@@ -1,0 +1,13 @@
+1678518165059	geckodriver	INFO	Listening on 127.0.0.1:52379
+1678518165214	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52380" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofiledhwJzs"
+1678518166074	Marionette	INFO	Marionette enabled
+1678518166296	Marionette	INFO	Listening on port 52387
+Read port: 52387
+WebDriver BiDi listening on ws://127.0.0.1:52380
+1678518166500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofiledhwJzs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52380/devtools/browser/408c2bec-6128-4ce5-8319-1ffe7566ee9d
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sArRvrN6I189drjF6Of_TQ6Xi_0Jr1YUSK6Bd2dnyeI.js line 2 > eval line 6056 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
