@@ -3,8 +3,8 @@ from selene import have, be
 from selenium.webdriver.common import keys
 import pytest
 
-def test_registration_form(test_browser_managment):
-    browser.open('https://demoqa.com/automation-practice-form')
+def test_registration_form(browser_managment):
+    browser.open('/automation-practice-form')
     browser.should(have.title('DEMOQA'))
     browser.element('[id="firstName"]').should(be.blank).type('Evgeniia')
     browser.element('[id="lastName"]').should(be.blank).type('Belikova')
