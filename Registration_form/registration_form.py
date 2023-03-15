@@ -1,7 +1,7 @@
 import os
-from selene import browser, command
+from selene import browser
 from selene import have, be
-
+from selenium.webdriver import Keys
 
 
 def test_registration_form(browser_managment):
@@ -22,20 +22,21 @@ def test_registration_form(browser_managment):
     browser.element('.react-datepicker__year-select').click()
     browser.element('option[value="1997"]').click()
     browser.element('.react-datepicker__day--031').click()
-    browser.element('#subjectsInput').should(be.blank).type('Computer Science').press_enter()
+    browser.element('#subjectsInput').click()
+    browser.element('#subjectsInput').send_keys('Computer Science')
+    browser.element('#subjectsInput').press(Keys.TAB)
     browser.element('[for="hobbies-checkbox-1"]').should(be.clickable).click()
     browser.element('[for="hobbies-checkbox-2"]').should(be.clickable).click()
     browser.element('[for="hobbies-checkbox-3"]').should(be.clickable).click()
     browser.element('#uploadPicture').send_keys((os.getcwd()+"/picture/pic.png"))
     browser.element('#currentAddress').should(be.blank).type('Moscow, Russia')
     browser.driver.execute_script('window.scrollBy(0, 500)')
-    browser.element('#close-fixedban').click()
     browser.element('#state').click()
     browser.element('#react-select-3-option-1').click()
     browser.element('#city').click()
     browser.element('#react-select-4-option-2').click()
     browser.element('#submit').click()
-#проверки
+    #проверки
     browser.element('#example-modal-sizes-title-lg').should(have.text('Thanks for submitting the form'))
     browser.element('//tbody/tr[1]/td[2]').should(have.text('Evgeniia Belikova'))
     browser.element('//tbody/tr[2]/td[2]').should(have.text('mur@loc.ru'))

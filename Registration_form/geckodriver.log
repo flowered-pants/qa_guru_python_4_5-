@@ -1743,3 +1743,53 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
 JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 5026 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1678888242111	geckodriver	INFO	Listening on 127.0.0.1:56371
+1678888242279	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56372" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofilenZR6YU"
+1678888243076	Marionette	INFO	Marionette enabled
+1678888243343	Marionette	INFO	Listening on port 56377
+Read port: 56377
+WebDriver BiDi listening on ws://127.0.0.1:56372
+1678888243547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofilenZR6YU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56372/devtools/browser/ddcb9ef5-3017-4a9a-bf7b-ecc07871104a
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 2957 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+1678888395415	geckodriver	INFO	Listening on 127.0.0.1:56509
+1678888395590	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56510" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileB6KHFx"
+1678888396372	Marionette	INFO	Marionette enabled
+1678888396637	Marionette	INFO	Listening on port 56515
+Read port: 56515
+WebDriver BiDi listening on ws://127.0.0.1:56510
+1678888396874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileB6KHFx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56510/devtools/browser/29a31285-5ec0-40b2-9bff-03be78ada589
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 6506 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1678888895141	Marionette	INFO	Stopped listening on port 56377
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678888896812	Marionette	INFO	Stopped listening on port 56515
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
