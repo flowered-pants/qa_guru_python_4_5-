@@ -1613,3 +1613,133 @@ JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/9DoG2UqGQ_hj5gfOHn4oyjEZInin2z3VqHqE5UOquhE.js line 2 > eval line 5051 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: https://demoqa.com/automation-practice-form, line 1: TypeError: document.getElementById(...) is null
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+1678824326565	Marionette	INFO	Stopped listening on port 50120
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "Sqlite.sys.mjs: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1678824328613	Marionette	INFO	Stopped listening on port 50392
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileauV5cF/protections.sqlite
+1678824330776	Marionette	INFO	Stopped listening on port 51415
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678856578022	geckodriver	INFO	Listening on 127.0.0.1:53637
+1678856578191	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53638" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofilewDxkkb"
+1678856578974	Marionette	INFO	Marionette enabled
+1678856579109	Marionette	INFO	Listening on port 53648
+Read port: 53648
+WebDriver BiDi listening on ws://127.0.0.1:53638
+1678856579325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofilewDxkkb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53638/devtools/browser/3ea636e0-478a-4208-a529-c636bfe9854d
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9DoG2UqGQ_hj5gfOHn4oyjEZInin2z3VqHqE5UOquhE.js line 2 > eval line 706 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678877780972	geckodriver	INFO	Listening on 127.0.0.1:55551
+1678877781149	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55552" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileUM4afR"
+1678877781955	Marionette	INFO	Marionette enabled
+1678877782181	Marionette	INFO	Listening on port 55559
+Read port: 55559
+WebDriver BiDi listening on ws://127.0.0.1:55552
+1678877782378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileUM4afR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55552/devtools/browser/908e6157-5526-4a1d-96ef-e9e3a6a2faed
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 292 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678877932428	geckodriver	INFO	Listening on 127.0.0.1:55689
+1678877932596	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55690" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileNxtnUk"
+1678877933408	Marionette	INFO	Marionette enabled
+1678877933625	Marionette	INFO	Listening on port 55695
+Read port: 55695
+WebDriver BiDi listening on ws://127.0.0.1:55690
+1678877933827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileNxtnUk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55690/devtools/browser/2ac40dd7-d938-463e-a41a-4f390a8345d2
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 993 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678878379370	geckodriver	INFO	Listening on 127.0.0.1:55899
+1678878379560	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55900" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofilewUhrba"
+1678878380251	Marionette	INFO	Marionette enabled
+1678878380481	Marionette	INFO	Listening on port 55905
+Read port: 55905
+WebDriver BiDi listening on ws://127.0.0.1:55900
+1678878380677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofilewUhrba/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55900/devtools/browser/2fe7798b-bd78-4341-b2c1-2d507f6dc090
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 5978 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1678878437960	geckodriver	INFO	Listening on 127.0.0.1:56026
+1678878438115	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56027" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileRRxXIu"
+1678878438774	Marionette	INFO	Marionette enabled
+1678878438971	Marionette	INFO	Listening on port 56032
+Read port: 56032
+WebDriver BiDi listening on ws://127.0.0.1:56027
+1678878439154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xk/fd39ll4n2bgdmq50k35wbj9h0000gn/T/rust_mozprofileRRxXIu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56027/devtools/browser/90f04ab2-99ca-4fb5-ad92-b54737bc55a2
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 5026 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

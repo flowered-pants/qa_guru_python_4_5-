@@ -1,3 +1,4 @@
 {
-  "registration_form.py": true
+  "registration_form.py": true,
+  "registration_form.py::test_registration_form": true
 }

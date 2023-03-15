@@ -1,13 +1,15 @@
 import os
-from selene import browser
+from selene import browser, command
 from selene import have, be
-from selenium.webdriver import Keys
-from selenium.webdriver.common import keys
+
 
 
 def test_registration_form(browser_managment):
     browser.open('/automation-practice-form')
     browser.should(have.title('DEMOQA'))
+    browser.execute_script('document.querySelector("#fixedban").remove()')
+    browser.element('footer').execute_script('element.remove()')
+    browser.element('.sidebar-content').execute_script('element.remove()')
     browser.element('#firstName').should(be.blank).type('Evgeniia')
     browser.element('#lastName').should(be.blank).type('Belikova')
     browser.element('#userEmail').should(be.blank).type('mur@loc.ru')
@@ -20,12 +22,12 @@ def test_registration_form(browser_managment):
     browser.element('.react-datepicker__year-select').click()
     browser.element('option[value="1997"]').click()
     browser.element('.react-datepicker__day--031').click()
-    browser.element('#subjectsInput').should(be.blank).type('text')
+    browser.element('#subjectsInput').perform(command.js.click).type('Computer Science')
     browser.element('[for="hobbies-checkbox-1"]').should(be.clickable).click()
     browser.element('[for="hobbies-checkbox-2"]').should(be.clickable).click()
     browser.element('[for="hobbies-checkbox-3"]').should(be.clickable).click()
     browser.element('#uploadPicture').send_keys((os.getcwd()+"/picture/pic.png"))
-    browser.element('#currentAddress').should(be.blank).type('Moscow, Russia').press_enter()
+    browser.element('#currentAddress').should(be.blank).type('Moscow, Russia')
     browser.driver.execute_script('window.scrollBy(0, 500)')
     browser.element('#close-fixedban').click()
     browser.element('#state').click()
