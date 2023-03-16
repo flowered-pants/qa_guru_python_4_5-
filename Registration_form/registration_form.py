@@ -1,7 +1,7 @@
 import os
 from selene import browser
 from selene import have, be
-from selenium.webdriver import Keys
+from selenium.webdriver.common.keys import Keys
 
 
 def test_registration_form(browser_managment):
